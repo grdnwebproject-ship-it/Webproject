@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: YOUR-GITHUB-USERNAME/YOUR-REPOSITORY-NAME   # <-- change this line
+  repo: grdnwebproject-ship-it/Webproject   # <-- change this line
   branch: main
 
 media_folder: images/uploads
