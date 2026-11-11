@@ -6,6 +6,13 @@
       "place": "Flacq",
       "text": "This is a test",
       "image": "/images/uploads/grdn-Logo.png"
+    },
+    {
+      "title": "Test 3",
+      "date": "2026-11-12",
+      "place": "PLace d'arme",
+      "text": "This is test 3",
+      "image": ""
     }
   ]
 }
