@@ -1,0 +1,73 @@
+backend:
+  name: github
+  repo: grdnwebproject-ship-it/Webproject
+  branch: main
+
+media_folder: grdn-site/site/images/uploads
+public_folder: /images/uploads
+
+collections:
+  - name: website
+    label: Website content
+    format: json
+    files:
+      - name: news
+        label: News posts (Home page)
+        file: grdn-site/site/content/news.json
+        fields:
+          - label: News posts
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: Text, name: text, widget: text }
+              - { label: Picture, name: image, widget: image, required: false }
+      - name: events
+        label: Upcoming events
+        file: grdn-site/site/content/events.json
+        fields:
+          - label: Events
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Title, name: title, widget: string }
+              - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: Place, name: place, widget: string, required: false }
+              - { label: Details, name: text, widget: text }
+              - { label: Picture, name: image, widget: image, required: false }
+      - name: gallery
+        label: Gallery photos
+        file: grdn-site/site/content/gallery.json
+        fields:
+          - label: Photos
+            name: items
+            widget: list
+            summary: "{{fields.caption}}"
+            fields:
+              - { label: Photo, name: image, widget: image }
+              - { label: Caption, name: caption, widget: string, required: false }
+      - name: achievements
+        label: Our achievements
+        file: grdn-site/site/content/achievements.json
+        fields:
+          - label: Achievements
+            name: items
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Big number (e.g. 500+), name: stat, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Description, name: text, widget: text }
+      - name: site
+        label: Site info, About text and contact details
+        file: grdn-site/site/content/site.json
+        fields:
+          - { label: Name, name: name, widget: string }
+          - { label: Tagline, name: tagline, widget: string }
+          - { label: About us text, name: about, widget: text }
+          - { label: Address, name: address, widget: string, required: false }
+          - { label: Phone, name: phone, widget: string, required: false }
+          - { label: Email, name: email, widget: string, required: false }
