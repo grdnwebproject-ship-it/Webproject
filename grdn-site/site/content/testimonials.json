@@ -1,0 +1,36 @@
+{
+  "items": [
+    {
+      "kind": "Member",
+      "name": "Rukhsaar Hassenjee Timol",
+      "role": "Member",
+      "headline": "",
+      "quote": "I joined GRDN in January 2022 and it has been a fantastic experience so far. This NGO caters for everyone. Together we have achieved more than expected and we are still willing to go the extra mile to help more people. I am very happy to be a part of GRDN and will always be ready for more projects alongside the members of GRDN. Together We Can.",
+      "photo": "/images/uploads/person-rukhsaar.jpg"
+    },
+    {
+      "kind": "Member",
+      "name": "Pushpa Armoogum",
+      "role": "Member",
+      "headline": "",
+      "quote": "GRDN has proved to be advantageous for our region and surely, we are not going to stop on this noble path. We have organised so many activities in so little time with limited budgets. Hats off to the team. Many people have received help in various ways. We look forward to more improvement.",
+      "photo": "/images/uploads/person-pushpa.jpg"
+    },
+    {
+      "kind": "Collaborator",
+      "name": "Père Phillipe Goupille",
+      "role": "President of the Council of Religions",
+      "headline": "Prepared to go beyond the barriers and prejudices of ethnicity and religion",
+      "quote": "It is with great pleasure that in my capacity as President of the Council of Religions, I write these few words to encourage the President and Members of Groupe Renaissance du Nord. I give thanks to God for the great dynamism and enthusiasm you have shown during the past year. I particularly appreciated the project of rebuilding the house of a poor family in Pamplemousses. This is a fruitful way for building peace and social harmony in our country. You have shown us that you are prepared to go beyond the barriers and prejudices of ethnicity and religion to serve those who need love and charity. The service of the poor is a privileged path to tread in our efforts to foster dialogue and understanding between the different religions that exist in our rainbow country. In fact, you are working for the preservation of the rainbow.",
+      "photo": "/images/uploads/person-philippe.jpg"
+    },
+    {
+      "kind": "Collaborator",
+      "name": "Aya Sivatthiru Sooriegassen Mootheeveeren",
+      "role": "",
+      "headline": "It is bringing unity among the citizens of Mauritius",
+      "quote": "GRDN is worth to be respected for its marvellous actions that are completely different. I have seen many existing groups and associations that help others with a motive to gain something in return, but GRDN is beyond this. It is surprising how a team could have built a house in limited time for the needy. It is a real prayer. You can see the motivations of the members and their dynamics to accomplish things. The team are promoting good actions. Who could have imagined collecting all thrown Murthis from the rivers and sea, then disposing of them in a proper place. Who could have imagined using a part of the SSR Botanical Garden for physical activities and at the same time breathing the fresh air surrounded by rivers and trees. Needless to say, the NGO is giving importance to religious activities and inter-religious activities. It is bringing unity among the citizens of Mauritius.",
+      "photo": "/images/uploads/person-aya.jpg"
+    }
+  ]
+}
