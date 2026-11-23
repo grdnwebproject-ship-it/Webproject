@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Groupe Renaissance du Nord</title>
+<meta name="description" content="Groupe Renaissance du Nord is a Mauritian NGO working for education, environmental protection, social housing, disability support, health and wellness, and poverty alleviation.">
+<meta property="og:title" content="Groupe Renaissance du Nord">
+<meta property="og:description" content="Creating a brighter future for all: honestly, respectfully, sustainably and transparently.">
+<meta property="og:image" content="images/logo.png">
+<link rel="icon" href="images/logo.png">
+<style>
+:root{color-scheme:light;--bg:#fbf8f4;--card:#fff;--tx:#23302e;--mu:#5f6f6c;--ac:#1b5a96;--ac2:#d9434a;--bd:#e6e0d8}
+@media (prefers-color-scheme:dark){:root{color-scheme:dark;--bg:#121a24;--card:#1b2634;--tx:#eaf0f6;--mu:#9fb1c4;--ac:#6fa8e0;--ac2:#f07a7a;--bd:#2b3a4c}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--tx);font:16px/1.6 Georgia,"Times New Roman",serif}
+h1,h2,h3,nav,button,.tag,.btn,label{font-family:system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--ac)}
+header{position:sticky;top:0;background:var(--card);border-bottom:1px solid var(--bd);z-index:5}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:10px 20px}
+.logo{display:flex;align-items:center;font:700 19px system-ui,sans-serif;color:var(--ac);text-decoration:none}
+.logo img{height:48px;margin-right:10px}
+nav{display:flex;gap:4px;flex-wrap:wrap}
+nav a{padding:6px 12px;border-radius:99px;color:var(--tx);text-decoration:none;font-size:14px}
+nav a.on,nav a:hover{background:var(--ac);color:#fff}
+.hero{background:linear-gradient(135deg,var(--ac),#0e2f57);color:#fff;padding:64px 0;text-align:center}
+.hero img{width:150px;height:150px;background:#fff;border-radius:50%;padding:6px;margin-bottom:14px}
+.hero h1{font-size:clamp(30px,6vw,46px);margin:0 0 12px}.hero p{font-size:19px;max-width:580px;margin:0 auto 22px;opacity:.95}
+main{padding:34px 0 20px}h2{font-size:28px;margin:0 0 6px}.sub{color:var(--mu);margin:0 0 22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;align-items:start}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px;overflow:hidden}
+.card h3{margin:0 0 4px;font-size:18px}.tag{font-size:13px;color:var(--ac2);font-weight:600}
+.card p{margin:8px 0}
+.stat{font:700 30px system-ui,sans-serif;color:var(--ac)}
+.media{margin:-18px -18px 12px}
+.media .main{display:block;width:100%;max-height:260px;object-fit:cover;cursor:zoom-in}
+.thumbs{display:grid;grid-template-columns:repeat(auto-fit,minmax(70px,1fr));gap:2px;margin-top:2px}
+.thumbs img{width:100%;height:64px;object-fit:cover;display:block;cursor:zoom-in}
+.vid{position:relative;padding-top:56.25%;margin:0 -18px 12px;background:#000}
+.vid iframe,.vid video{position:absolute;inset:0;width:100%;height:100%;border:0}
+.txt.clamp{max-height:9.5em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 70%,transparent);mask-image:linear-gradient(#000 70%,transparent)}
+.more{background:none;border:0;color:var(--ac);font-weight:600;cursor:pointer;padding:4px 0;font-size:14px}
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.gal figure{margin:0;background:var(--card);border:1px solid var(--bd);border-radius:12px;overflow:hidden}
+.gal img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;cursor:zoom-in}.gal figcaption{padding:8px 12px;font-size:14px;color:var(--mu)}
+.btn{background:var(--ac2);color:#fff;border-radius:99px;padding:9px 18px;font-size:14px;text-decoration:none;display:inline-block;border:0;cursor:pointer}
+.btn.alt{background:var(--ac)}
+.pil{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:28px 0}
+.pil div{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:12px;text-align:center;font:600 14px system-ui,sans-serif}
+.pil span{display:block;font-size:26px}
+.empty{color:var(--mu);font-style:italic}
+.ct p{margin:6px 0}
+.pres{margin-top:18px;border-left:5px solid var(--ac2)}.pres h3{font-size:20px;color:var(--ac);margin-bottom:10px}.sig{font-style:italic;color:var(--mu)}
+.pres .who{float:right;width:120px;height:120px;border-radius:50%;object-fit:cover;margin:0 0 10px 16px;border:3px solid var(--bd)}
+.team{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-bottom:12px}
+.mem{text-align:center}
+.av{width:110px;height:110px;border-radius:50%;object-fit:cover;border:3px solid var(--bd);display:block;margin:0 auto 8px;background:var(--bg)}
+.av.ph{display:flex;align-items:center;justify-content:center;font-size:44px;color:var(--mu)}
+.mem b{display:block;font-family:system-ui,sans-serif}
+.mem span{color:var(--mu);font-size:14px}
+.tes{display:flex;gap:14px}
+.tes .av{width:72px;height:72px;margin:0;flex:none}
+.tes h3{font-size:16px;margin:0}.tes .rl{font-size:13px;color:var(--mu)}
+.hl{font-weight:700;font-style:italic;color:var(--ac);margin:8px 0 4px}
+h2.sec{font-size:22px;margin:34px 0 14px}
+form label{display:block;font-size:14px;font-weight:600;margin:12px 0 4px}
+form input,form textarea{width:100%;padding:10px 12px;border:1px solid var(--bd);border-radius:10px;background:var(--bg);color:var(--tx);font:inherit}
+form textarea{min-height:130px}
+.hp{position:absolute;left:-9999px}
+.ok{color:#1c7a3d;font-weight:600}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;align-items:center;justify-content:center;z-index:20}
+#lb.on{display:flex}#lb img{max-width:92vw;max-height:86vh;border-radius:6px}
+#lb button{position:absolute;background:rgba(255,255,255,.18);color:#fff;border:0;font-size:28px;width:46px;height:46px;border-radius:50%;cursor:pointer}
+#lb .x{top:14px;right:14px}#lb .p{left:14px;top:50%}#lb .n{right:14px;top:50%}
+footer{text-align:center;color:var(--mu);padding:24px;border-top:1px solid var(--bd);font-size:14px;margin-top:34px}
+footer a{color:var(--mu)}
+</style>
+</head>
+<body>
+<header><div class="wrap top"><a class="logo" href="#home" id="brand"></a><nav id="nav"></nav></div></header>
+<div id="app"><p class="wrap empty">Loading…</p></div>
+<footer id="foot"></footer>
+<div id="lb"><button class="x" aria-label="Close">×</button><button class="p" aria-label="Previous">‹</button><img alt=""><button class="n" aria-label="Next">›</button></div>
+<script>
+const $=s=>document.querySelector(s),D={};
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const para=s=>String(s||'').split(/\n+/).filter(p=>p.trim()).map(p=>`<p>${esc(p)}</p>`).join('');
+const TABS=[['home','Home'],['about','About us'],['achievements','Our achievements'],['gallery','Gallery'],['events','Upcoming events'],['contact','Contact us']];
+const items=k=>(D[k]&&D[k].items)||[];
+const _n=new Date(),today=_n.getFullYear()+'-'+String(_n.getMonth()+1).padStart(2,'0')+'-'+String(_n.getDate()).padStart(2,'0');
+const fmt=d=>{try{return new Date(d+'T00:00').toLocaleDateString('en-GB',{day:'numeric',month:'long',year:'numeric'})}catch(e){return d||''}};
+const page=(t,sub,body)=>`<main><div class="wrap"><h2>${t}</h2><p class="sub">${sub}</p>${body}</div></main>`;
+const PIL=[['📚','Education'],['🌳','Environmental protection'],['🏠','Social housing'],['♿','Disability support'],['❤️','Health and wellness'],['🤝','Poverty alleviation']];
+const pil=`<div class="pil">${PIL.map(p=>`<div><span>${p[0]}</span>${p[1]}</div>`).join('')}</div>`;
+const S=()=>D.site||{};
+const imgs=p=>[...(Array.isArray(p.images)?p.images:[]),...(p.image?[p.image]:[])].filter(Boolean);
+const safeUrl=u=>/^(https?:\/\/|\/)/i.test(u||'')?u:'';
+
+function video(u){
+ u=safeUrl((u||'').trim());if(!u)return'';
+ let m=u.match(/(?:youtube\.com\/(?:watch\?(?:.*&)?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{11})/);
+ if(m)return`<div class="vid"><iframe src="https://www.youtube-nocookie.com/embed/${m[1]}" allowfullscreen loading="lazy" title="Video"></iframe></div>`;
+ if(/facebook\.com|fb\.watch/i.test(u))return`<div class="vid"><iframe src="https://www.facebook.com/plugins/video.php?href=${encodeURIComponent(u)}&show_text=false" allowfullscreen loading="lazy" title="Video"></iframe></div>`;
+ if(/\.(mp4|webm)(\?|$)/i.test(u))return`<div class="vid"><video controls preload="metadata" src="${esc(u)}"></video></div>`;
+ return`<p><a href="${esc(u)}" target="_blank" rel="noopener">▶ Watch the video</a></p>`;
+}
+let gid=0;
+function media(p){
+ const im=imgs(p),g='g'+(++gid);let h='';
+ if(im.length){
+  h+=`<div class="media"><img class="main lb" data-g="${g}" src="${esc(im[0])}" alt="${esc(p.title||'')}" loading="lazy">`;
+  if(im.length>1)h+=`<div class="thumbs">${im.slice(1,5).map(x=>`<img class="lb" data-g="${g}" src="${esc(x)}" alt="" loading="lazy">`).join('')}</div>`;
+  h+=`</div>`;
+  if(im.length>5)h+=im.slice(5).map(x=>`<img class="lb" data-g="${g}" src="${esc(x)}" alt="" hidden>`).join('');
+ }
+ return h+video(p.video);
+}
+const long=t=>String(t||'').length>380;
+const more=t=>long(t)?`<button class="more" type="button">Read more</button>`:'';
+const txt=t=>t?`<div class="txt${long(t)?' clamp':''}">${para(t)}</div>${more(t)}`:'';
+const post=(p,showDate)=>`<div class="card">${media(p)}${showDate&&p.date?`<span class="tag">${esc(fmt(p.date))}</span>`:''}<h3>${esc(p.title)}</h3>${txt(p.text)}</div>`;
+
+const team=()=>{const t=items('team');if(!t.length)return'';
+ return`<div class="wrap"><h2 class="sec">Our team</h2><div class="team">${t.map(m=>`<div class="mem">${m.photo?`<img class="av" src="${esc(m.photo)}" alt="${esc(m.name||m.role)}" loading="lazy">`:`<div class="av ph">👤</div>`}${m.name?`<b>${esc(m.name)}</b>`:''}<span>${esc(m.role)}</span></div>`).join('')}</div></div>`};
+const tes=k=>{const l=items('testimonials').filter(t=>(t.kind||'Member')==k);if(!l.length)return'';
+ return`<h2 class="sec">Messages from ${k=='Member'?'our members':'our collaborators'}</h2><div class="grid">${l.map(t=>`<div class="card"><div class="tes">${t.photo?`<img class="av" src="${esc(t.photo)}" alt="" loading="lazy">`:`<div class="av ph">👤</div>`}<div><h3>${esc(t.name)}</h3>${t.role?`<div class="rl">${esc(t.role)}</div>`:''}</div></div>${t.headline?`<p class="hl">“${esc(t.headline)}”</p>`:''}${txt(t.quote)}</div>`).join('')}</div>`};
+
+const V={
+ home:()=>`<div class="hero"><div class="wrap"><img src="images/logo.png" alt="Logo"><h1>${esc(S().name)}</h1><p>${esc(S().tagline)}</p><a class="btn" href="#events">See upcoming events</a></div></div><div class="wrap">${pil}<div class="card">${para(S().about)}</div></div>`+team()+
+  page('Latest news','What we have been up to lately.',(()=>{const n=[...items('news')].sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+   if(!n.length)return'<p class="empty">No news yet. Check back soon!</p>';
+   return`<div class="grid">${n.slice(0,6).map(p=>post(p,true)).join('')}</div>`+(n.length>6?`<div id="olderbox" style="text-align:center;margin-top:20px"><button class="btn alt" id="older" type="button">Show older news (${n.length-6})</button></div>`:'')})()),
+ about:()=>page('About us','Our six pillars and what people say about us.',pil+(S().president_message?`<div class="card pres"><h3>Message from the President</h3>${S().president_photo?`<img class="who" src="${esc(S().president_photo)}" alt="President">`:''}${para(S().president_message)}${S().president_signature?`<p class="sig">${esc(S().president_signature)}</p>`:''}</div>`:'')+tes('Member')+tes('Collaborator')),
+ achievements:()=>page('Our achievements','What we have achieved together.',`<div class="grid">${items('achievements').map(a=>`<div class="card">${media(a)}${a.stat?`<div class="stat">${esc(a.stat)}</div>`:''}<h3>${esc(a.title)}</h3>${txt(a.text)}</div>`).join('')||'<p class="empty">Coming soon.</p>'}</div>`),
+ gallery:()=>{const seen=new Set(),all=[];
+  const add=(src,cap)=>{if(src&&!seen.has(src)){seen.add(src);all.push([src,cap||''])}};
+  items('gallery').forEach(g=>add(g.image,g.caption));
+  [...items('news')].sort((a,b)=>(b.date||'').localeCompare(a.date||'')).forEach(p=>imgs(p).forEach(x=>add(x,p.title)));
+  items('achievements').forEach(p=>imgs(p).forEach(x=>add(x,p.title)));
+  return page('Gallery','Moments from our work. Click a photo to enlarge it.',`<div class="gal">${all.map(a=>`<figure><img class="lb" data-g="gal" src="${esc(a[0])}" alt="${esc(a[1])}" loading="lazy"><figcaption>${esc(a[1])}</figcaption></figure>`).join('')||'<p class="empty">Photos coming soon.</p>'}</div>`)},
+ events:()=>page('Upcoming events','Come and join us.',`<div class="grid">${items('events').filter(e=>(e.date||'')>=today).sort((a,b)=>a.date.localeCompare(b.date)).map(e=>`<div class="card">${media(e)}<span class="tag">${esc(fmt(e.date))}${e.time?' · '+esc(e.time):''}${e.place?' · '+esc(e.place):''}</span><h3>${esc(e.title)}</h3>${txt(e.text)}</div>`).join('')||'<p class="empty">No upcoming events right now. Check back soon!</p>'}</div>`),
+ contact:()=>{const s=S();return page('Contact us','We would love to hear from you.',`<div class="card ct">${s.email?`<p><b>Email:</b> <a href="mailto:${esc(s.email)}">${esc(s.email)}</a></p>`:''}${s.phone?`<p><b>Phone:</b> <a href="tel:${esc(String(s.phone).replace(/[^+\d]/g,''))}">${esc(s.phone)}</a></p>`:''}${s.address?`<p><b>Address:</b> ${esc(s.address)} · <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.address)}" target="_blank" rel="noopener">View on map</a></p>`:''}${s.facebook?`<p><b>Facebook:</b> <a href="${esc(safeUrl(s.facebook))}" target="_blank" rel="noopener">Follow us</a></p>`:''}${(s.email||s.phone||s.address)?'':'<p class="empty">Contact details coming soon.</p>'}</div>
+  <h2 class="sec">Send us a message</h2><div class="card"><form id="cf"><input class="hp" name="_gotcha" tabindex="-1" autocomplete="off"><label for="f1">Your name</label><input id="f1" name="name" required><label for="f2">Your email</label><input id="f2" name="email" type="email" required><label for="f3">Message</label><textarea id="f3" name="message" required></textarea><p><button class="btn" type="submit">Send</button></p><p id="cfm" role="status"></p></form></div>`)}};
+function render(){
+ const h=(location.hash||'#home').slice(1),k=V[h]?h:'home';
+ $('#brand').innerHTML='<img src="images/logo.png" alt="">'+esc(S().name||'Groupe Renaissance du Nord');
+ $('#nav').innerHTML=TABS.map(t=>`<a href="#${t[0]}" class="${t[0]==k?'on':''}">${t[1]}</a>`).join('');
+ gid=0;$('#app').innerHTML=V[k]();
+ document.title=(k=='home'?'':TABS.find(t=>t[0]==k)[1]+' – ')+(S().name||'Groupe Renaissance du Nord');
+ const s=S();$('#foot').innerHTML='© '+new Date().getFullYear()+' '+esc(s.name||'')+[s.address,s.phone,s.email].filter(Boolean).map(x=>'<br>'+esc(x)).join('')+(s.facebook?`<br><a href="${esc(safeUrl(s.facebook))}" target="_blank" rel="noopener">Facebook</a>`:'');
+}
+/* lightbox */
+const LB={l:[],i:0};
+function lbShow(){const im=$('#lb img');im.src=LB.l[LB.i];$('#lb').classList.add('on');$('#lb .p').style.display=$('#lb .n').style.display=LB.l.length>1?'':'none'}
+function lbStep(d){LB.i=(LB.i+d+LB.l.length)%LB.l.length;lbShow()}
+document.addEventListener('click',e=>{
+ const t=e.target;
+ if(t.classList&&t.classList.contains('lb')){const g=t.dataset.g;LB.l=[...document.querySelectorAll('.lb[data-g="'+g+'"]')].map(x=>x.getAttribute('src'));LB.i=LB.l.indexOf(t.getAttribute('src'));lbShow();return}
+ if(t.closest('#lb .x')||t.id==='lb'){$('#lb').classList.remove('on');return}
+ if(t.closest('#lb .p')){lbStep(-1);return}
+ if(t.closest('#lb .n')){lbStep(1);return}
+ if(t.classList&&t.classList.contains('more')){const x=t.previousElementSibling,c=x.classList.toggle('clamp');t.textContent=c?'Read more':'Show less';return}
+ if(t.id==='older'){const n=[...items('news')].sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(6);const g=document.querySelector('#app .grid');g.insertAdjacentHTML('beforeend',n.map(p=>post(p,true)).join(''));$('#olderbox').remove()}
+});
+addEventListener('keydown',e=>{if(!$('#lb').classList.contains('on'))return;if(e.key==='Escape')$('#lb').classList.remove('on');if(e.key==='ArrowLeft')lbStep(-1);if(e.key==='ArrowRight')lbStep(1)});
+/* contact form */
+document.addEventListener('submit',async e=>{
+ if(e.target.id!=='cf')return;e.preventDefault();
+ const f=e.target,m=$('#cfm'),ep=safeUrl(S().form_endpoint),fd=new FormData(f);
+ if(fd.get('_gotcha'))return;
+ if(ep){
+  m.className='';m.textContent='Sending…';
+  try{const r=await fetch(ep,{method:'POST',body:fd,headers:{Accept:'application/json'}});
+   if(r.ok){f.reset();m.className='ok';m.textContent='Thank you! Your message has been sent.'}else throw 0}
+  catch(x){m.textContent='Sorry, the message could not be sent. Please email us directly.'}
+ }else{
+  const to=S().email||'';
+  location.href='mailto:'+to+'?subject='+encodeURIComponent('Message from the website – '+fd.get('name'))+'&body='+encodeURIComponent(fd.get('message')+'\n\n'+fd.get('name')+'\n'+fd.get('email'));
+  m.textContent='Your email app should open so you can send the message.';
+ }
+});
+addEventListener('hashchange',()=>{render();scrollTo(0,0)});
+Promise.all(['site','news','achievements','gallery','events','team','testimonials'].map(k=>fetch('content/'+k+'.json',{cache:'no-cache'}).then(r=>r.json()).then(j=>D[k]=j).catch(()=>D[k]={}))).then(render);
+</script>
+</body>
+</html>
