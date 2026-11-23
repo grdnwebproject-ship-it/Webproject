@@ -3,22 +3,55 @@
     {
       "stat": "22",
       "title": "Events in our first year",
-      "text": "In our first year, Groupe Renaissance du Nord organised 22 events for the community."
+      "text": "During our 1st year of existence, we organised no less than 22 events all year long, reaching almost all spheres of our Rainbow nation and covering all of our objectives.",
+      "images": [],
+      "video": ""
     },
     {
-      "stat": "New home",
-      "title": "A house for Mrs Antoinette",
-      "text": "We built a house for Mrs Antoinette in Cité EDC, Pamplemousses, giving her a safe place to call home."
+      "stat": "60 days",
+      "title": "Mrs Antoinette’s haven in 60 days",
+      "text": "We built a concrete house for Mrs Antoinette of Cité EDC, Pamplemousses.\nYul Ibrahim, Vice-President of GRDN, explained that given the urgency of the situation, we set a challenge: to build a concrete house for Marie-Ange in 60 days. “Within a week, foundations were laid, and the house was beginning to take shape. There was a great outpouring of solidarity to complete this challenge in the given time. Fortunately, with the support of media partners, our benevolent community, and the hard work of our labour, completing Mrs Antoinette’s house was a huge success.”",
+      "images": [
+        "/images/uploads/ach-house-1.jpg",
+        "/images/uploads/ach-house-2.jpg",
+        "/images/uploads/ach-house-3.jpg"
+      ],
+      "video": ""
     },
     {
-      "stat": "Early access",
-      "title": "Pamplemousses Botanical Garden",
-      "text": "We obtained the early opening of the Pamplemousses Botanical Garden so that people can go jogging and walking in the morning."
+      "stat": "29 May 2022",
+      "title": "Jogging at Pamplemousses Garden",
+      "text": "A small jog in the morning can set you up for an entire day of increased activity levels, better food choices, increased mental accuracy, and lower stress levels. With this thought in mind, the team of GRDN came up with the initiative to open the SSR Botanical Garden for joggers in the morning.\nAfter many negotiations with the authorities, on the 29th of May 2022, our perseverance bore fruit, and the garden opened its doors from 6 am to 8:30 am so that joggers can stamp their feet on its premises.\nWe want to recognise the great personal efforts of Mr Ramsingh Ramsur, a truly devoted and faithful social worker who acted as a facilitator and boosted our negotiations with the management of the SSR Botanical Garden Trust to a successful end.",
+      "images": [
+        "/images/uploads/ach-garden.jpg"
+      ],
+      "video": ""
     },
     {
-      "stat": "Respect",
-      "title": "Abandoned statues",
-      "text": "We arranged for abandoned statues to be disposed of in a respectful manner."
+      "stat": "",
+      "title": "Call for Solidarity for Mrs. Bibi Jassbeen Kurumdin",
+      "text": "Following our sponsorship appeal in early October 2024 for the purchase of a motorised wheelchair for Mrs. Bibi Jassbeen Kurumdin, Groupe Renaissance du Nord received generous contributions. In collaboration with the Global Rainbow Foundation, the funds collected made it possible to purchase a motorised wheelchair, which was handed over to Mrs. Kurumdin on 17 October 2024 to mark the International Day for the Eradication of Poverty.\nThis support has greatly improved her mobility and daily life as she raises her four daughters. However, due to illness and the loss of her employment, Mrs. Kurumdin now depends solely on her monthly pension and cannot meet the instalments for her NHDC housing unit, resulting in arrears of approximately Rs 300,000.\nGroupe Renaissance du Nord appeals to government and relevant authorities to consider waiving the arrears in view of this hardship case. We also invite donations to help cover the outstanding amount and ensure housing stability for Mrs. Kurumdin and her family.",
+      "images": [
+        "/images/uploads/ach-kurumdin.jpg"
+      ],
+      "video": ""
+    },
+    {
+      "stat": "",
+      "title": "Assisting Ryan Brette and his family",
+      "text": "Ryan Brette’s story has touched the heart of all Mauritians. Ryan became paralysed following a serious road accident in Mont-Loisir in 2010. The GRDN team united to provide a better quality of life, adequate medical care and equipment. We also supported the family in rightfully winning their long-running court case.\nSheila Brette, Ryan’s mother, shares her painful journey. She says that GRDN is like a family to her. “GRDN has always been a great support for us. For the past one and a half years, our kitchen is running thanks to the generosity of this NGO. Ryan has been surviving thanks to this amazing team. They made sure at all times that he doesn’t lack food, medicines and all his customised supplements.”\nShe thanks GRDN for responding to her hardships at all times. “During my sufferings and hardships, they stood by my side. There were times when they even wiped my tears. There is one man in particular that came as an angel for us, Prakash Aubeeluck. He is more than family to us. He is always present to support Ryan.”\nShe also tells of a day of heavy rainfall when Ryan’s father was admitted to hospital and water began to enter the house. “I didn’t know what to do. I phoned Prakash Aubeeluck and within minutes he sent two of his friends who came to help me secure Ryan and they removed all water and completely cleaned the house.”",
+      "images": [
+        "/images/uploads/ach-ryan-1.jpg",
+        "/images/uploads/ach-ryan-2.jpg"
+      ],
+      "video": ""
+    },
+    {
+      "stat": "",
+      "title": "Respectful disposal of abandoned statues",
+      "text": "We collected abandoned statues of different idols and disposed of them in a dignified manner, and we continue to raise awareness on the respectful and environmentally responsible disposal of murtis.",
+      "images": [],
+      "video": ""
     }
   ]
 }
